@@ -116,8 +116,12 @@
   'character-class':
     'patterns': [
       {
-        'match': '\\\\[wWsSdDhH]|\\.'
+        'match': '\\\\[wWsSdDhH]'
         'name': 'constant.character.character-class.regexp'
+      }
+      {
+        'match': '\\.'
+        'name': 'constant.character.character-class.wildcard.regexp'
       }
       {
         'match': '\\\\.'
